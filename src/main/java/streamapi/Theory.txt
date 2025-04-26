@@ -1,0 +1,92 @@
+**Java Stream API Cheat Sheet (for Interviews)**
+
+---
+
+### 1. Create Stream
+```java
+List<String> list = Arrays.asList("a", "b", "c");
+Stream<String> stream = list.stream();
+```
+
+### 2. Intermediate Operations
+```java
+filter(Predicate)           // Filters elements
+map(Function)               // Transforms elements
+flatMap(Function)           // Flattens nested structure
+distinct()                  // Removes duplicates
+sorted()                    // Sorts elements
+limit(n)                    // Limits the stream size
+skip(n)                     // Skips first n elements
+peek(Consumer)              // Performs action on each element (for debugging)
+```
+
+### 3. Terminal Operations
+```java
+forEach(Consumer)           // Performs action on each element
+collect(Collectors)         // Collects elements into collection
+reduce()                    // Reduces elements to a single value
+count()                     // Counts elements
+anyMatch(), allMatch(), noneMatch() // Checks conditions
+findFirst(), findAny()      // Returns Optional
+```
+
+### 4. Collectors
+```java
+Collectors.toList()                     // List
+Collectors.toSet()                      // Set
+Collectors.toMap()                      // Map
+Collectors.joining(",")                 // String join
+Collectors.groupingBy(Classifier)       // Group by
+Collectors.partitioningBy(Predicate)    // Partition by true/false
+Collectors.counting()                   // Count elements
+Collectors.summingInt(), averagingInt() // Stats
+```
+
+### 5. Common Patterns
+```java
+// Remove Duplicates from List
+list.stream().distinct().collect(Collectors.toList());
+
+// Second Highest Number
+list.stream().sorted(Comparator.reverseOrder()).skip(1).findFirst();
+
+// Character Frequency
+str.chars().mapToObj(c -> (char)c).collect(Collectors.groupingBy(c -> c, Collectors.counting()));
+
+// Flatten List of Lists
+listOfLists.stream().flatMap(Collection::stream).collect(Collectors.toList());
+
+// Grouping by Field
+employees.stream().collect(Collectors.groupingBy(Employee::getDepartment));
+
+// Partition Even/Odd
+nums.stream().collect(Collectors.partitioningBy(n -> n % 2 == 0));
+```
+
+### 6. Stream with Custom Objects
+```java
+class Employee {
+    String name;
+    double salary;
+    String department;
+    // constructor, getters
+}
+
+// Filter and Map
+employees.stream()
+         .filter(e -> e.getSalary() > 50000)
+         .map(Employee::getName)
+         .collect(Collectors.toList());
+```
+
+---
+
+### Tips for Interviews
+- Chain multiple operations cleanly.
+- Know difference: `map()` vs `flatMap()`.
+- Use `Optional` to avoid nulls.
+- Use `reduce()` for sums/products.
+- Combine `Collectors` for powerful grouping/partitioning.
+
+---
+

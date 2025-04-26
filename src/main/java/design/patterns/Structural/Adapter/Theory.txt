@@ -1,0 +1,25 @@
+🧠 Concept
+The Adapter Pattern allows incompatible interfaces to work together.
+It "adapts" one interface to another, making it easier to integrate components that would otherwise not be able to communicate.
+
+✅ Key Idea:
+Convert the interface of a class into another interface that a client expects.
+
+Adapter enables classes with incompatible interfaces to work together by wrapping an existing class and converting its interface into one that the client expects.
+
+📦 Real-World Analogy:
+Imagine you're using a European power plug in a US socket. The adapter adjusts the plug’s interface so you can connect it.
+
+In software, an Adapter does something similar: it adjusts incompatible interfaces so that they can work together.
+
+✅ When to Use:
+You need to integrate a legacy system with a newer system but the interfaces don't match.
+
+You have third-party libraries whose interfaces you cannot change, but you need them to fit into your system.
+
+You want to reuse a class without changing its code.
+
+✅ Java Example: Media Player and Adapter
+Let’s say you have a MediaPlayer interface and you want to support two kinds of media files: MP3 and MP4.
+But, you have an advanced player that only supports MP4.
+The goal is to adapt the MP4 player to the MediaPlayer interface.

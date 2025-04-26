@@ -1,0 +1,4 @@
+In this structural design pattern, we add extra feature on runtime through different class
+or without modifying the original class.
+
+Def:The Decorator Pattern is a structural design pattern used to add behavior or responsibilities to an object dynamically, without modifying its original code.

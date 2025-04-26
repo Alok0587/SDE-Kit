@@ -1,0 +1,20 @@
+in this we simply create clone of that original object.
+So each time it will create new object with copying old values ...in our example it's radius and area
+
+Real-World Use Cases
+Graphics Editors:
+
+Cloning shapes, brushes, or other graphical elements.
+
+Game Development:
+
+Cloning game objects like characters, weapons, or levels.
+
+Caching:
+
+Storing and reusing expensive-to-create objects (e.g., database connections).
+
+Configuration Management:
+
+Cloning configuration objects with slight modifications.
+

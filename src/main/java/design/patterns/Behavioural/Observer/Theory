@@ -1,0 +1,18 @@
+🧠 Concept
+The Observer Pattern defines a one-to-many dependency between objects,
+so that when one object (subject) changes state, all its dependents (observers) are notified and updated automatically.
+
+📦 Real-World Analogy:
+Think of YouTube notifications:
+
+A channel (subject) has subscribers (observers).
+
+When the channel uploads a new video, all subscribers get notified.
+
+✅ When to Use:
+You have a central object (subject) that multiple parts of your system want to observe.
+
+You want a decoupled system: the subject doesn’t need to know exactly who the observers are.
+
+Think of publish-subscribe systems, GUI events, stock tickers, etc.
+

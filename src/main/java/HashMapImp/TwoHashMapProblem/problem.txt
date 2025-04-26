@@ -1,0 +1,13 @@
+To implement a caching mechanism using two HashMaps in Java,
+ which will be accessed by multiple threads and delete data from the cache
+ if its timestamp crosses a TTL (Time-To-Live) value
+
+
+ //We will use ConcurrentHashMap for the thread safety
+
+
+
+ Operations-
+  1.Add new entry in cache
+  2.Remove From Cache
+  3. Clear the cache values after TTL

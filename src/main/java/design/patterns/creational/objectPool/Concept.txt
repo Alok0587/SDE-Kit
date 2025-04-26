@@ -1,0 +1,15 @@
+Need of Object pool-
+
+ When creating some specific Object is expensive for Exp,
+ creating DB connection(Used for pooling database connection) or creating threads.(check for java cached object pool class)
+ This is used when creating object is really not efficient everytime and we want to
+ Use already created objects from object pool.
+
+ Notes- Not use this design pattern for creating object which are used for longer duration for the client.
+
+ Implementation-
+
+ 1. create object which will be pooled
+ 2. create a interface which will allow to get and add to the pool.
+ 3. Use BlockingQueue<Object> for handling thread safety for the pooled object
+ 4. Borrow the object when used and after then release/return the object to BlockingQueue<>

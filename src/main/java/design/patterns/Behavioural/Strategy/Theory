@@ -1,0 +1,36 @@
+🧠 Concept
+The Strategy Pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable.
+It lets the algorithm vary independently from the clients that use it.
+
+✅ When to Use:
+You have multiple ways of performing a task (like sorting, payment, logging, etc.).
+
+You want to choose the algorithm at runtime.
+
+You want to avoid if-else or switch-case chains for different behaviors.
+
+🎯 Real-World Analogy:
+Imagine a Navigation app. You can choose:
+
+Route by car
+
+Route by bike
+
+Route by walk
+
+The app (context) stays the same, but the strategy (route algorithm) changes based on user input.
+
+
+
+Example- Suppose there are multiple payment methods and customer can choose
+one strategy means one payment method.
+
+
+
+🔁 Benefits of Strategy Pattern:
+Avoids bloated if-else or switch-case
+
+Promotes Open/Closed Principle
+
+Easy to add new strategies without touching existing code
+
