@@ -22,7 +22,7 @@ The app (context) stays the same, but the strategy (route algorithm) changes bas
 
 
 
-Example- Suppose there are multiple payment methods and customer can choose
+InterfaceExp- Suppose there are multiple payment methods and customer can choose
 one strategy means one payment method.
 
 

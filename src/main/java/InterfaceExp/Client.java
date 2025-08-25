@@ -1,4 +1,4 @@
-package Example;
+package InterfaceExp;
 
 public class Client implements InterfaceOne, InterfaceTwo {
 
