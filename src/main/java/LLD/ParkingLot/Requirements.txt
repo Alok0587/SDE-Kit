@@ -1,0 +1,18 @@
+Design Parking lot system with the following requirements:
+
+1. The parking lot should have multiple levels, each with a fixed number of parking spots.
+2. Each parking spot can be of different types: Motorcycle, Compact, and Large.
+3. The system should allow vehicles to park and unpark.
+4. The system should keep track of available parking spots.
+5. The system should provide a way to find the nearest available parking spot for a given vehicle type.
+6. The system should be able to generate a parking ticket when a vehicle parks and calculate the parking fee when it unparks.
+
+
+Entities-
+
+ParkingSlot
+ParkingLevel- List of slots
+ParkingLot- List of Levels
+Vehicle
+Ticket
+
