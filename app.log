@@ -1,0 +1,61 @@
+2025-09-02T14:09:55.810240 [INFO]: Application started
+2025-09-02T14:09:55.811386 [DEBUG]: Debugging application
+2025-09-02T14:09:55.811425 [ERROR]: An error occurred
+2025-09-02T14:13:10.491467 [INFO]: This is an info message
+2025-09-02T14:13:10.492771 [DEBUG]: This is a debug message
+2025-09-02T14:13:10.492819 [ERROR]: This is an error message
+2025-09-02T14:13:10.492868 [INFO]: This is an info message
+2025-09-02T14:13:10.492953 [DEBUG]: This is a debug message
+2025-09-02T14:13:10.492992 [ERROR]: This is an error message
+2025-09-02T14:13:10.493038 [INFO]: This is an info message
+2025-09-02T14:13:10.493195 [DEBUG]: This is a debug message
+2025-09-02T14:13:10.493336 [ERROR]: This is an error message
+2025-09-02T14:13:10.550252 [INFO]: This is an info message
+2025-09-02T14:13:10.553063 [INFO]: This is an info message
+2025-09-02T14:13:10.553125 [DEBUG]: This is a debug message
+2025-09-02T14:13:10.553165 [INFO]: This is an info message
+2025-09-02T14:13:10.553211 [DEBUG]: This is a debug message
+2025-09-02T14:13:10.553242 [ERROR]: This is an error message
+2025-09-02T14:13:10.553275 [ERROR]: This is an error message
+2025-09-02T14:13:10.553335 [DEBUG]: This is a debug message
+2025-09-02T14:13:10.553365 [ERROR]: This is an error message
+2025-09-02T15:01:49.975560 [INFO]: Log message 0 from Thread-2
+
+2025-09-02T15:01:49.975571 [INFO]: Log message 0 from Thread-1
+
+2025-09-02T15:01:49.976812 [INFO]: Log message 1 from Thread-2
+
+2025-09-02T15:01:49.976840 [INFO]: Log message 2 from Thread-2
+
+2025-09-02T15:01:49.976830 [INFO]: Log message 1 from Thread-1
+
+2025-09-02T15:01:49.976868 [INFO]: Log message 3 from Thread-2
+
+2025-09-02T15:01:49.976893 [INFO]: Log message 4 from Thread-2
+
+2025-09-02T15:01:49.976910 [INFO]: Log message 5 from Thread-2
+
+2025-09-02T15:01:49.976890 [INFO]: Log message 2 from Thread-1
+
+2025-09-02T15:01:49.976928 [INFO]: Log message 6 from Thread-2
+
+2025-09-02T15:01:49.976945 [INFO]: Log message 7 from Thread-2
+
+2025-09-02T15:01:49.976936 [INFO]: Log message 3 from Thread-1
+
+2025-09-02T15:01:49.976965 [INFO]: Log message 8 from Thread-2
+
+2025-09-02T15:01:49.976984 [INFO]: Log message 9 from Thread-2
+
+2025-09-02T15:01:49.976984 [INFO]: Log message 4 from Thread-1
+
+2025-09-02T15:01:49.977026 [INFO]: Log message 5 from Thread-1
+
+2025-09-02T15:01:49.977084 [INFO]: Log message 6 from Thread-1
+
+2025-09-02T15:01:49.977128 [INFO]: Log message 7 from Thread-1
+
+2025-09-02T15:01:49.977170 [INFO]: Log message 8 from Thread-1
+
+2025-09-02T15:01:49.977212 [INFO]: Log message 9 from Thread-1
+
